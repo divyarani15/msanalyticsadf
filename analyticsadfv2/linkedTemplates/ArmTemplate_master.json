@@ -7,6 +7,10 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "analyticsadfv2"
 		},
+		"Blobmetadatasqlconn_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Blobmetadatasqlconn'"
+		},
 		"keyvaultconnectionv1_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://analyticskeyvaultv2.vault.azure.net/"
@@ -37,6 +41,9 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"Blobmetadatasqlconn_connectionString": {
+						"value": "[parameters('Blobmetadatasqlconn_connectionString')]"
 					},
 					"keyvaultconnectionv1_properties_typeProperties_baseUrl": {
 						"value": "[parameters('keyvaultconnectionv1_properties_typeProperties_baseUrl')]"

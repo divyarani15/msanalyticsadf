@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "analyticsadfv2"
 		},
+		"Blobmetadatasqlconn_connectionString": {
+			"value": ""
+		},
 		"keyvaultconnectionv1_properties_typeProperties_baseUrl": {
 			"value": "https://analyticskeyvaultv2.vault.azure.net/"
 		}
